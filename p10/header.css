@@ -1,0 +1,169 @@
+.wrap{
+  width:100%;
+  height: 100%;
+}
+.headerBox{
+  width: 160px;
+  height: 100%;
+  background: #00b8e6;
+  position: fixed;
+}
+.header{
+  padding: 40px 20px 0;
+}
+.lan{
+  border: 1px solid #fff;
+}
+.lan:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.lan>li{
+  float: left;
+  overflow: hidden;
+  height: 23px;
+}
+.gnb{
+  margin-top: 30px;
+}
+.gnb>li{
+  height: 36px;
+  overflow: hidden;
+  padding: 10px 0;
+  border-bottom: 1px solid #1abfe8;
+}
+.footer{
+  position: absolute;
+  bottom: 40px;
+}
+.footer a{
+  display: block;
+}
+.footer p{
+  font-size: 11px;
+  line-height: 14px;
+  color: white;
+  letter-spacing: -0.16em;
+}
+
+/************************************** container*/
+.container{
+  background: url("images/ex_bg.gif");
+  height: 100%;
+  margin-left: 160px;
+  padding-top: 20px;
+}
+.container .top{
+  min-width: 1200px;
+  margin: 0 20px;
+}
+.container .top:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.top h1{
+  float: left;
+}
+.top .topRight{
+  float: right;
+}
+.top .topRight::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.topRight .topMenu{
+  float: left;
+  margin-top: 8px;
+}
+.topRight .topMenu::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.topRight .topMenu li{
+  float: left;
+  margin-right: 10px;
+
+}
+.topRight .topSns{
+  float: left;
+  margin-top:5px;
+}
+.topRight .topSns::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.topRight .topSns li{
+  float: left;
+  margin-right: 7px;
+}
+
+.container .center{
+  width: 100%;
+}
+.container .center .imgSlider{
+  width: 90%;
+  height:800px;/*height를 꼭 픽셀로줘야하는가*/
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.imgSlider .brcmb{
+  position: absolute;
+  top:70%;
+  left:45%;
+  margin-left: -70px;
+}
+.brcmb::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.brcmb li{
+  float: left;
+}
+.bbutton{
+  width: 70px;
+  height: 41px;
+  border: 0;
+  margin-left: -2px;
+}
+.bbutton1{
+  background: url("images/tab_main1.gif") no-repeat;
+}
+.bbutton2{
+  background: url("images/tab_main2.gif") no-repeat;
+}
+.bbutton3{
+  background: url("images/tab_main3.gif") no-repeat;
+}
+.bbutton4{
+  background: url("images/tab_main4.gif") no-repeat;
+}
+.container .center .imgSlider .imgUl{
+  width: 500%;
+  position: absolute;
+}
+.imgUl::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.imgUl li{
+  width: 20%;
+  float: left;
+  position: relative;
+}
+.imgUl .sliderText{
+    position: absolute;
+    top:30px;
+    left:25%;
+}
+.imgUl li img{
+  max-width: 100%;
+}
