@@ -1,0 +1,238 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* 공통 css */
+*{
+   font-family: 'Nanum Gothic', sans-serif;
+   font-size:10pt;
+   color:#666;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul{
+   margin:0;
+   padding:0;
+}
+
+li{
+   list-style:none;
+}
+
+img{
+   border:0;
+}
+
+a{
+   text-decoration:none;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+
+/* header */
+
+.header {
+   width:900px;
+   height:55px;
+   background:#fff;
+   position:absolute;
+   left:50%;
+   margin-left:-450px;
+   top:30px;
+   z-index:1;
+}
+
+.top_logo{
+   float:left;
+   margin-top:7px;
+   margin-left:7px;
+}
+
+.gnb {
+   width:645px;
+   height:55px;
+   float:right;
+}
+
+.gnb>li{
+   width:129px;
+   height:55px;
+   float:left;
+}
+
+.gnb>li>a{
+   display:block;
+   width:129px;
+   height:55px;
+   text-align:center;
+   line-height:55px;
+   font-weight:700;
+}
+
+.gnb>li:hover>a{
+   color:#22c4be;
+   height:52px;
+   border-bottom:3px solid #22c3be;
+   text-decoration:none;
+}
+
+.headerbg{
+   width:900px;
+   height:215px;
+   background:fff;
+   position:absolute;
+   left:0;
+   top:55px;
+   border-top:1px solid #ccc;
+   border-bottom:1px solid #ccc;
+   display:none;
+}
+.icon{
+	margin-left:20px;
+	}
+.sub {
+   width:128px;
+   border:1px solid #ccc;
+   border-right:none;
+   height:215px;
+   background:#fff;
+   position:relative; /* headerbg 위쪽으로 올라오게 하려고 포지션을 주었다 */
+   display:none;
+}/* ul객체 */
+
+.sub>li{
+   width:128px;
+   height:40px;
+}
+
+.sub>li>a{
+   display:block;
+   width:108px;
+   height:40px;
+   line-height:40px;
+   padding-left:20px;
+}
+
+.sub>li>a:hover{
+   background:#eee;
+}
+
+/*visual*/
+.visual{
+	height:600px;
+	position:relative;
+	}
+.img_container{
+	width:100%;
+	height:600px;
+	position:relative;
+	}
+.img_container li{
+	width:100%;
+	height:600px;
+	background-position:center center;
+	position:absolute;
+	}
+.img_container .bg1{background:url(images/main_img1.jpg); display:block;}
+.bg2{background:url(images/main_img2.jpg)}
+.bg3{background:url(images/main_img3.jpg)}
+
+.breadcrumb{
+	position:absolute;
+	width:85px;
+	height:15px;
+	bottom:30px;
+	left:50%;
+	margin-left:-42px;
+	}
+.active{
+	background:white;
+	}
+.breadcrumb li{
+	cursor:pointer;
+	width:9px;
+	height:9px;
+	border:2px solid white;
+	float:left;
+	margin-left:10px;
+	border-radius:15px;
+	}
+	
+.news{
+	text-align:center;
+	margin:30px 0;
+	}
+.news h2{font-size:15pt; margin-bottom:5px;}
+.aside{
+	width:975px;
+	margin:0 auto;
+	margin-bottom:100px;
+	}
+.aside:after{
+	content:"";
+	clear:both;
+	display:block;
+	}
+.aside li{
+	width:225px;
+	height:225px;
+	float:left;
+	margin-left:15px;
+	margin-bottom:15px;
+	}
+	
+.aside2{
+	width:975px;
+	margin: 0 auto;
+
+	}
+.aside2:after{
+	content:"";
+	clear:both;
+	display:block;
+	}
+.aside2>li{
+	float:left;
+	}
+.aside2_ul:after{
+	content:"";
+	clear:both;
+	display:block;
+	}
+.aside2_ul li{
+	float:left;
+	}
+.aside2_center{
+	width:350px;
+	}
+.footer{
+	padding-top:20px;
+	padding-bottom:50px;
+	background:#313131;
+	}
+.footer_container{
+	width:990px;
+	margin:0 auto;
+	}
+.footer *{
+	color:#999;
+	}
+.term{
+	float:left;
+	}
+.term li{
+	display:inline;
+	}
+.term li:after{
+	content:"|";
+	margin:0 5px;
+	}
+.last:after{
+	content:""!important;
+	margin-right:0!important;
+	}
+.family{
+	float:right;
+	}
+.classp{
+	clear:both;
+	padding-top:10px;
+	}

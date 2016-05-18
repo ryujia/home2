@@ -1,0 +1,52 @@
+.sitemap{
+	padding-top:35px;
+	padding-bottom:60px;
+	background:#1f1d1e;	
+}
+.sitemap_container{
+	width:840px;
+	margin:0 auto;
+}
+.sitemap_container:after{
+	content:"";
+	clear:both;
+	display:block;	
+}
+.sitemap_container>li{
+	width:140px;
+	float:left;
+}
+.sitemap_container>li>h4{
+	color:#FFF;	
+}
+.sitemap_container>li>ul>li{
+	margin:7px 0;
+}
+.footer{
+	padding:25px 0;
+	background:#2f2f2f;
+	text-align:center;	
+	line-height:14pt;
+}
+.info  li{
+	display:inline;	
+	margin:0  7px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

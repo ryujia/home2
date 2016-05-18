@@ -1,0 +1,242 @@
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;	
+	}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl{
+	margin:0;
+	padding:0;
+	}
+li{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+body,html{height:100%; width:100%;}
+
+.content{
+	width:1200px;
+	height:750px;
+	margin: 0 auto;
+	background:red;
+	position:relative;
+	background-position:center center !important;
+	background-size:cover!important;
+	background-repeat: no-repeat !important; /*배경하고 속성하고 추가해주는 클래스가 다를땐 important 필수!*/
+	/*첫번째 자식객체의 상단 마진 적용*/
+	padding-top:1px; /*첫번째 자식에게 margin-top을 주기 위해 */
+	box-sizing:border-box;
+	background-attachment:fixed !important;/*배경고정*/
+	}
+.visual{
+	width:100%;
+	height:100%;
+	position:relative;
+	}
+.visual li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-position:center center;
+	display:none;
+	}
+.visual .mainbg1{background:url(images/main_01.jpg);display:block;}
+.mainbg2{background:url(images/main_02.jpg);}
+.mainbg3{background:url(images/main_03.jpg);}
+
+.top_logo{
+	position:absolute;
+	top:105px;
+	left:180px;
+	}
+.headcopy{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:350px;
+	}
+.headcopy h1{
+	color:white;
+	font-size:40pt;
+	margin-bottom:20px;
+	}
+.headcopy p{
+	color:#fff;
+	font-weight:bold;
+	}
+.prev,.next{
+	position:absolute;
+	top:350px;
+	cursor:pointer;
+	}
+.prev{left:120px;}
+.next{right:120px;}
+
+
+/*===================================*/
+.content2{
+	background:url(images/bg_01.jpg);
+	}
+.title{
+	margin-top:90px;
+	font-size:20pt;
+	color:#fff;
+	margin-left:200px;
+	}
+.maintext{
+	font-size:13pt;
+	font-weight:bold;
+	color:#fff;
+	margin-left:200px;
+	margin-top:115px;
+	}
+.desc{
+	margin-left:200px;
+	margin-top:50px;
+	color:#fff;
+	}
+.video{
+	margin-left:200px;
+	margin-top:50px;
+	}
+	
+	
+	
+.content3{
+	height:1300px;
+	background:url(images/bg_02.jpg);
+	}
+.content3 .maintext{
+	width:400px;
+	margin-left:580px;
+	margin-top:250px;
+	}
+.content3 .desc{
+	width:400px;
+	margin-left:580px;
+	margin-top:50px;
+	}
+.item{
+	position:absolute;
+	top:100px;
+	left:220px;
+	}
+	
+.content4{
+	background:url(images/bg_03.jpg);
+	}
+.slider{
+	width:340px;
+	height:215px;
+	margin-left:200px;
+	margin-top:40px;
+	position:relative;
+	overflow:hidden;
+	}
+.img_container{
+	position:absolute;
+	width:1700px;
+	height:215px;
+	}
+.img_container li{
+	width:340px;
+	height:215px;
+	float:left;
+	background-position:center center;
+	background-size:cover;
+	}
+	
+
+
+.sliderbg1{background:url(images/con_01.jpg);}
+.sliderbg2{background:url(images/con_02.jpg);}
+.sliderbg3{background:url(images/con_03.jpg);}
+.sliderbg4{background:url(images/con_04.jpg);}
+
+.breadcrumb{
+	width:75px;
+	height:15px;
+	position:absolute;
+	bottom:20px;
+	right:20px;
+	}
+.breadcrumb li{
+	background:white;
+	width:15px;
+	height:15px;
+	float:left;
+	margin-left:3px;
+	font-size:6pt;
+	color:#999;
+	text-align:center;
+	line-height:15px;
+	}
+.active{
+	background:#36F !important;
+	color:white!important;
+	}
+.shop_btn{
+	background:none;
+	border:1px solid white;
+	width:340px;
+	padding:10px 0;
+	margin-left:200px;
+	margin-sop:30px;
+	color:white;
+	font-weight:bold;
+	}
+.shop_btn:hover{
+	background:#06f;
+	}
+.content5{
+	background:url(images/bg_04.jpg);
+	}
+.content5, .content6 *{color:black;}
+
+.content6{
+	width:100%;
+	height:100%;
+	background:#CCC;
+	}
+.content6 .wrap{
+	position:relative;
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	padding-top:1px;
+	box-sizing:border-box;
+	}
+.content6 .maintext{
+	margin-top:100px;
+	}
+.content6 .desc{
+	margin-top:20px;
+	}
+.con1{
+	margin-left:200px;
+	margin-top:40px;
+	}
+.footer{
+	position:absolute;
+	bottom:50px;
+	left:200px;
+	}
+.info li{display:inline; margin-right:10px;}
+
+.nav{
+	width:10px;
+	height:165px;
+	position:fixed;
+	right:30px;
+	top:50%;
+	margin-top:-82px;
+	z-index:100;
+	}
+.nav li{
+	width:10px;
+	height:10px;
+	background:#DDD;
+	margin-top:15px;
+	border-radius:10px;
+	cursor:pointer;
+	}
+.radio_on{
+	background:#F63 !important;
+	}

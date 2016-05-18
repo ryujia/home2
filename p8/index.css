@@ -1,0 +1,172 @@
+.visual{
+	height:600px;
+	background:red;
+	position:relative;
+	overflow:hidden;
+	}
+.img_container{
+	width:400%;
+	height:inherit;
+	position:absolute;
+	background:black;
+	}
+.img_container>li{
+	width:25%;
+	height:inherit;
+	float:left;
+	}
+.bg1{background:url(images/main_banner01.jpg)}
+.bg2{background:url(images/main_banner02.jpg)}
+.bg3{background:url(images/main_banner03.jpg)}
+.breadcrumb{
+	width:165px;
+	height:15px;
+	position:absolute;
+	bottom:40px;
+	margin-left:-82px;
+	left:50%;
+	}
+.breadcrumb li{
+	width:15px;
+	height:15px;
+	float:left;
+	margin-left:30px;
+	background:white;
+	border-radius:15px;
+	box-shadow:5px 5px 10px #333;
+	cursor:pointer;
+	}
+.active{
+	border:2px solid #999;
+	width:11px !important;
+	height:11px !important;
+	}
+.next,.prev{
+	position:absolute;
+	top:290px;
+	}
+.prev{left:50px;}
+.next{right:50px;}
+.news{
+	height:50px;
+	background:black;
+	text-align:center;
+	line-height:50px;
+	}
+.news *{
+	color:white;
+	display:inline;
+	}
+	
+.aside1{
+	width:1000px;
+	height:335px;
+	margin: 40px auto;
+	}
+.portfolio{
+	width:494px;
+	height:335px;
+	background:url(images/port.jpg);
+	float:left;
+	}
+.portfolio:hover{
+	background-position:0 -335px;
+	}
+.product{
+	width: 506px;
+	height:335px;
+	float:right;
+	}
+.product>h3{
+	height:22px;
+	margin-left:13px;
+	}
+.product>ul{
+	height:313px;
+	}
+.product>ul>li{
+	width:240px;
+	height:150px;
+	margin-left:13px;
+	margin-bottom:13px;
+	float:left;
+	}
+.prd1{
+	background:url(images/studio01.jpg);
+	}
+.prd2{
+	background:url(images/studio02.jpg);
+	}
+.prd3{
+	background:url(images/studio03.jpg);
+	}
+.prd4{
+	background:url(images/studio04.jpg);
+	}
+.product>ul>li:hover{
+	background-position:0 -150px;
+	}
+.aside2{
+	width:1024px;
+	margin:0 auto;
+
+	}
+.aside2:after,.latest:after{
+	content:"";
+	clear:both;
+	display:block;
+	}
+.aside2>li{
+	width:241px;
+	margin-left:12px;
+	float:left;
+	text-align:center;
+	}
+.aside2 h3{
+	font-size:12pt;
+	}
+.aside2 p{
+	margin:5px auto;
+	}
+.latest{
+	width:1000px;
+	margin:40px auto;
+	}
+
+.latest>li{
+	float:left;
+	height:150px;
+	}
+.notice{
+	width:239px;/*border -1 padding -20*/
+	padding-right:20px;
+	border-right: 1px solid #999;
+	
+	}
+.gallery{
+	width:455px;
+	padding-left:20px;
+	padding-right:20px;
+	}
+.customer{
+	width:224px;
+	padding-left:20px;
+	border-left: 1px solid #999;
+	}
+.latest h3{
+	margin-bottom:25px;
+	}
+.notice ul{
+	margin-left:20px;
+	}
+.notice li{
+	margin:5px 0;
+	}
+.notice li:before{
+	content:"-";
+	}
+.gallery li{
+	width:140px;
+	float:left;
+	margin-left:6px;
+	}

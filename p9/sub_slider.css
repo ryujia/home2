@@ -1,0 +1,61 @@
+.sub_slider{
+	height:300px;
+	background:black;	
+	position:relative;
+}
+.img_container{
+	height:inherit;	
+}
+.img_container li{
+	height:inherit;	
+	background-position:center center !important;/*배경 적용할때 오류나서 important씀*/
+	position:absolute;
+	/*absolute, fixed속성이 적용되면 넓이가 사라지기 때문에 반드시 넓이 지정*/
+	width:100%;
+	display:none;
+}
+.img_container .img1{
+	background:url(images/sub01.jpg);
+	display:block;
+	}
+.img2{
+	background:url(images/sub02.jpg);
+	}
+.img3{
+	background:url(images/sub03.jpg);
+	}
+.img4{
+	background:url(images/sub04.jpg);
+	}
+	
+.prev, .next{
+	position:absolute;
+	top:150px;	
+}
+.prev{
+	left:30px;
+}
+.next{
+	right:30px;	
+}
+.breadcrumb{
+	width:202px;
+	height:13px;
+	position:absolute;
+	bottom:30px;
+	left:50%;
+	margin-left:-101px;	
+}
+
+.breadcrumb li{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left:30px;
+	background:url(images/bullet-off.png);
+	cursor:pointer;	
+}
+
+.active{
+	background:url(images/bullet-on.png) !important;	
+}

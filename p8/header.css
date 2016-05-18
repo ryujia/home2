@@ -1,0 +1,79 @@
+.top{
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+	}
+
+.tnb{
+	float:right;
+	margin-top:15px;
+	}
+.tnb>li{
+	display:inline;
+	}
+.tnb>li:after{
+	content:"|";
+	margin:0 5px;
+	}
+.last:after{
+	content:"" !important;
+	margin: 0 !important;
+	}
+.header{
+	width:1000px;
+	height:100px;
+	margin:0 auto;
+	position:relative;/*z-index주기위해*/
+	z-index:1;
+	}
+.toplogo{
+	float:left;
+	}
+.gnb{
+	float:right;
+	margin-top:20px;
+	}
+.gnb>li{
+	float:left;
+	width:130px;
+	height:40px;
+	border-top:2px solid #a58877;
+	margin-left:20px;
+	
+	position:relative;
+	}
+.gnb>li>a{
+	display:block;
+	width:inherit;
+	height:inherit;
+	text-align:center;
+	line-height:40px;
+	font-size:12pt;
+	font-weight:bold;
+	}
+.gnb>li>a:hover{
+	text-decoration:none;
+	}
+.gnb>li>ul{
+	position:absolute;
+	width:100%;/*포지션줄시에 width 반드시*/
+	display:none;
+	}
+.gnb>li>ul>li>a{
+	display:block;
+	width:130px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	font-weight:bold;
+	background:#885a41;
+	}	
+	
+.gnb>li>ul>li>a:hover{
+	text-decoration:none;
+	background:#78452d;
+	}
+	
+	
+	

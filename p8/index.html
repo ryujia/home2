@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>홈페이지만들기2</title>
+
+<link rel="stylesheet" type="text/css" href="common.css">
+<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+
+
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="header.js"></script>
+
+<script src="index.js"></script>
+</head>
+
+<body>
+<? include "header.html" ?>
+<div class="visual" ><!-- 포지션이 된 애는 네비게이션을 덮는다 .. 깊이를 바꿔줘야 함 css참고-->
+	<ul class="img_container">
+    	<li class="bg1"></li>
+        <li class="bg2"></li>
+        <li class="bg3"></li>
+        <li class="bg1"></li>
+    </ul>
+    <ul class="breadcrumb">
+    	<li class="radio1 radio4 active" data-n="1"></li>
+        <li class="radio2" data-n="2"></li>
+        <li class="radio3" data-n="3"></li>
+    </ul>
+    
+    <button class="prev">&lt;</button>
+    <button class="next">&gt;</button>
+</div>
+
+<div class="news">
+	<h3>DREAM NEWS</h3>
+    <p>드림 스튜디오의 최근 소식을 빠르게 전달드립니다.</p>
+</div>
+<div class="aside1">
+	<div class="portfolio"></div>
+    <div class="product">
+    	<h3>PRODUCT</h3>
+        <ul>
+        	<li class="prd1"></li>
+            <li class="prd2"></li>
+            <li class="prd3"></li>
+            <li class="prd4"></li>
+        </ul>
+    </div>
+</div>
+<ul class="aside2">
+	<li>
+    	<h3>title</h3>
+        <p>sample</p>
+        <img src="images/content2_01.jpg">
+    </li>
+	<li>
+    	<h3>title</h3>
+        <p>sample</p>
+        <img src="images/content2_01.jpg">
+    </li>
+	<li>
+    	<h3>title</h3>
+        <p>sample</p>
+        <img src="images/content2_01.jpg">
+    </li>
+	<li>
+    	<h3>title</h3>
+        <p>sample</p>
+        <img src="images/content2_01.jpg">
+    </li>    
+ </ul>
+ <ul class="latest">
+ 	<li class="notice">
+   		<h3>NOTICE</h3>
+        <ul>
+        	<li>[news]news1</li>
+            <li>[news]news2</li>
+            <li>[news]news3</li>
+            <li>[news]news4</li>
+        </ul>
+    </li>
+    <li class="gallery">
+    	<h3>GALLARY</h3>
+        <ul>
+        	<li><img src="images/20150717142231_373378038.jpg" alt="" width="140"></li>
+            <li><img src="images/20150717142250_1573421138.jpg" alt="" width="140"></li>
+            <li><img src="images/20150717142309_367456445.jpg" alt="" width="140"></li>
+        </ul>
+    </li>
+    <li class="customer">
+    	<img src="images/cscenter.jpg" alt="">
+    </li>
+    
+ </ul>
+<? include "footer.html" ?>
+</body>
+</html>

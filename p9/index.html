@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<!--공통스타일 부분-->
+<link rel="stylesheet" type="text/css" href="common.css">
+<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+<!--공통스타일 부분 끝-->
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="index.js"></script>
+</head>
+
+<body>
+<? include "header.html"  ?>
+<!--index-->
+<div class="visual">
+	<ul class="bg_container">
+    	<li class="img1">1</li>
+        <li class="img2"></li>
+        <li class="img3"></li>
+        <li class="img4"></li>
+        <li class="img1"></li>
+    </ul>
+    <button class="prev">&lt;</button>
+    <button class="next">&gt;</button>
+    
+    <ul class="breadcrumb">
+    	<li class="btn1 active btn5" data-n="1"></li>
+        <li class="btn2" data-n="2"></li>
+        <li class="btn3" data-n="3"></li>
+        <li class="btn4" data-n="4"></li>
+    </ul>
+</div><!--visual end-->
+<ul class="aside">
+  <li><a href="#"><img src="images/banner01.jpg" alt=""></a></li>
+  <li><a href="#"><img src="images/banner02.jpg" alt=""></a></li>
+  <li><a href="#"><img src="images/banner03.jpg" alt=""></a></li>
+  <li><a href="#"><img src="images/banner04.jpg" alt=""></a></li>
+</ul><!--aside end-->
+<div class="news">
+  <div class="news_container">
+    <h3>LATEST NEWS</h3>
+    <p><a href="#">최신뉴스를 전해드립니다</a></p>
+  </div>
+</div><!--news-->
+
+<ul class="latest_board">
+  <li class="notice">
+	<h3>Notice</h3>
+    <ul>
+       	  <li><a href="#">[쇼핑몰]공지사항 1번</a></li>
+          <li><a href="#">[호스팅]공지사항 2번</a></li>
+          <li><a href="#">[호스팅]공지사항 3번</a></li>
+          <li><a href="#">[호스팅]공지사항 4번</a></li>
+    </ul>
+    <a href="#" class="more">More+</a>
+  </li><!--notice-->
+    
+  <li class="gallery">
+	<h3>Gallery</h3>
+    <ul class="thumb">
+    	<li><a href="#"><img src="images/gallery1.jpg" width="126"></a></li>
+        <li><a href="#"><img src="images/gallery2.jpg" width="126"></a></li>
+        <li><a href="#"><img src="images/gallery3.jpg" width="126"></a></li>
+        <li><a href="#"><img src="images/gallery4.jpg" width="126"></a></li>
+    </ul>
+	<a href="#" class="more">More+</a>
+  </li><!--gallery-->
+    
+  <li class="customer">
+		<img src="images/customer.gif" alt="">  
+  </li><!--customer-->
+</ul><!--latest_board-->
+<!--index end-->
+<? include "footer.html"  ?>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+.center{
+	width:1200px;
+	margin:40px auto;
+	
+	}
+.center:after{
+	content:"";
+	clear:both;
+	display:block;	
+}
+.sidebar{
+	width:230px;
+	float:left;/*부모 높이를 줘야함*/
+}
+.snb{
+	margin-bottom:60px;	
+	display:none;
+}
+.snb>h2{
+	font-size:15pt;
+	margin-bottom:20px;
+	}
+.snb>ul>li{
+	padding:7px 0;
+	border-bottom:1px solid #ccc;
+	}
+.snb>ul>li>a{
+	font-weight:bold;
+	}
+.snb>ul>li>a:before{
+	content:"▶ ";
+	margin-left:15px;
+	}
+.sub_active{color:#930 !important;}
+.path{
+	position:absolute;
+	right:0;
+	top:10px;
+	display:none;
+	}
+.path li{
+	display:inline;
+	}
+.path li:after{
+	content:" > ";
+	margin: 0 5;
+	}
+.last_child{
+	color:#C63;
+	font-weight:bold;
+	}
+.last_child:after{
+	content:"" !important;
+	margin:0 !important;
+	}
+.content{
+	width:940px;
+	min-height:400px;/*늘어날 수 있는 높이*/
+	float:right;
+	position:relative;
+}
+.content>h2{
+	font-size:14pt;
+	color:#666;
+	border-bottom:1px dotted #F00;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	}

@@ -1,0 +1,104 @@
+.visual{
+	height:500px;
+	position:relative;
+	background:url(images/banner-1.jpg);
+	background-size:cover;
+	background-position:center center;
+}	
+.visual .textbox{
+	width:320px;
+	background:#e84c3d;	
+	text-align:center;
+	padding:20px 0;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-160px;
+}
+article{margin:0 auto;border:1px solid red;}
+article:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+article > section{
+	width:50%;
+	float:left;
+}	
+.left_section{background:#FCC;}
+.right_section{background:#6C6;}
+section>div{
+	float:left;
+	background-size:cover !important;
+	background-position:center center !important;
+	/*css3*/
+	display:box;
+	display:-webkit-box; /*크롬,사파리*/
+	display:-moz-box;/*파이어폭스*/
+	display:-o-box;/*오페라*/
+	display:-ms-box;/*IE*/
+	box-align:center;
+	-webkit-box-align:center;
+	-moz-box-align:center;
+	-o-box-align:center;
+	-ms-box-align:center;
+}
+
+section>div>img{
+	width:100%;
+	display:none;	
+}
+
+.box1,.box2,.box4,.box5,.box8,.box9{width:50%;height:225px;}
+.box3,.box6{width:100%;height:450px;}
+.box1,.box4{background:white;}
+.box2{background:url(images/home-1.jpg);}
+.box3{background:url(images/home-3.jpg);}
+.box5{background:url(images/home-5.jpg);}
+.box6{background:url(images/home-2.jpg);}
+.box7{width:50%;height:450px;background:white;}
+.box8{background:url(images/home-4.jpg);}
+.box9{background:#262626;}
+.text_box{
+	width:90%;
+	margin:0 auto;
+}
+section  h3{
+	font-size:18pt;
+	font-weight:normal;	
+	margin-bottom:15px;	
+}
+section  p{
+	font-size:11pt;
+	line-height:16pt;
+}
+footer>section{
+	float:left;
+	width:50%;
+	}
+
+@media screen and (min-width:1024px){/*desktop*/
+	article{max-width:1150px;}
+}
+@media screen and (min-width:800px) and (max-width:1023px){/*tablet*/
+	article{max-width:900px;}
+	article > section{width:100%;}
+	
+}
+@media screen and (max-width:799px){/*mobile*/
+	article{max-width:100%;}
+	article > section{width:100%;}
+	section>div{
+		width:100% !important;
+		height:auto !important;
+	}
+	section>div>img{
+		display:block;	
+	}
+	.box1, .box4, .box7,.box9{
+		padding:50px 0;	
+	}
+}
+
+
+
