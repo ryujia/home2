@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body,html{height:100%;width:100%;}
+
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:10pt;
+	color:#666;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, p, ol, dl, figure{
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+img {
+	border:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.last:after{
+	content:"" !important;
+}
+table{
+	border-collapse: collapse;
+	border-spacing:0;
+}

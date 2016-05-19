@@ -1,0 +1,345 @@
+.wrap{
+  width: 100%;
+}
+.headerArea{
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #ae2448;
+}
+.header{
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.header>h1{
+  margin-top: 10px;
+  float: left;
+}
+.header>.gnb{
+  float: left;
+  margin-left: 70px;
+}
+.gnb::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.gnb>li{
+  float: left;
+  margin-right: 68px;
+}
+.header>.util{
+  float: right;
+  margin-top: 10px;
+}
+.util *{
+  font-size: 7pt;
+  font-weight: bolder;
+  color: #939393;
+}
+.util::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.util0,.util1{
+  margin-bottom: 10px;
+  float: right;
+}
+.util0::after,.util1::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.util0>li, .util1>li{
+  float: left;
+  margin-left:10px;
+}
+/*============================main*/
+.mainArea{
+  width: 100%;
+  height: 460px;
+}
+.mainSlder{
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+.mainSlder .bg{
+  width: 300%;
+  height: 100%;
+}
+.mainSlder .bg::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.mainSlder .bg0{
+  float: left;
+  background: url("images/main01.jpg");
+  background-size: cover;
+  width: 33.33%;
+  height: 100%;
+}
+.mainSlder .bg1{
+  float: left;
+  background: url("images/main02.jpg");
+  background-size: cover;
+  width: 33.33%;
+  height: 100%;
+}
+
+.mainSlder .txtArea{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.txtArea .txt{
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.txt .txtUl{
+  width: 300%;
+  margin-top: 90px;
+}
+.txtUl::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.txtUl li{
+  width: 33.3%;
+  float: left;
+}
+.txtUl h4{
+  font-size: 20pt;
+  color: #fff;
+}
+.txtUl h2{
+  margin-top: 20px;
+  font-size: 40pt;
+  color: #fff;
+}
+.txt .slideBtnUl{
+  margin-top: 30px;
+}
+.slideBtnUl::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.slideBtnUl li{
+  cursor: pointer;
+  float: left;
+}
+.slideBtnUl .leftBtn, .slideBtnUl .stopBtn, .slideBtnUl .rightBtn{
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgba(0,0,0,0.5);
+  text-align: center;
+  line-height: 22px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.slideBtnUl .campusBtn{
+  margin-left: 5px;
+}
+
+.contentArea{
+  width: 100%;
+  position: relative;
+}
+.contents{
+  position: absolute;
+  width: 100%;
+  top: -130px;
+}
+.content1{
+  width: 1000px;
+  margin: 0 auto;
+}
+.content1Ul{
+  width: 100%;
+}
+.content1Ul .content1Top{
+  width: 100%;
+  height: 345px;
+}
+.content1Top::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.content1Top li{
+  float: left;
+}
+.content1Top .noticeArea{
+  width: 600px;
+  height: 345px;
+  background: #fff;
+}
+.noticeArea .notice{
+  padding: 40px;
+  width: 520px;
+}
+.content1Top .starArea{
+  width: 400px;
+  height: 345px;/*100%로주면 0으로나옴*/
+  background: #aa193c;
+}
+.starArea .star{
+  padding: 40px;
+}
+.star .starTitle{
+  font-size: 15pt;
+  color: #fff;
+}
+.star .starContent:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.star .starContent{
+  margin-top: 20px;
+}
+.star .starContent li{
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+}
+.star .starContent .starContentText{
+  color: #fff;
+  font-size: 11pt;
+  line-height:20px;
+}
+.notice{
+  width: 100%;
+  height: 100%;
+}
+.notice .tabMenu{
+
+}
+.notice .tabMenu:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.notice .tabMenu .tabSm{
+  float: left;
+  width: 74px;
+  height: 42px;
+  border:1px solid #d9d9d9;
+  border-bottom: 2px solid #aa193c;
+  box-sizing: border-box;
+  font-size: 13pt;
+  text-align: center;
+  line-height: 42px;
+  background: #f7f7f7;
+}
+.notice .tabMenu .tabBig{
+  float: left;
+  width: 96px;
+  height: 42px;
+  border:1px solid #d9d9d9;
+  border-bottom: 2px solid #aa193c;
+  box-sizing: border-box;
+  font-size: 13pt;
+  text-align: center;
+  line-height: 42px;
+  background: #f7f7f7;
+}
+.notice .lists{
+  width: 100%;
+
+}
+.notice .lists li{
+}
+.notice .lists .list{
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+.notice .lists .list:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.notice .lists .list .tit{
+  float: left;
+}
+.notice .lists .list .day{
+  float: right;
+}
+.banner::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.banner li{
+  float: left;
+  width: 12.5%;
+  height: 100px;
+  background: #223461;
+  text-align: center;
+  border-right: 1px solid #1b2a4e;
+  box-sizing: border-box;
+}
+.banner li img{
+  margin-top:20px;
+}
+.lastBanner{
+  border :0 !important;
+}
+.content2{
+  width: 1000px;
+  margin: 0 auto;
+}
+.content2Title{
+  width: 100%;
+  height: 94px;
+  text-align: center;
+  position: relative;
+  line-height: 94px;
+}
+.content2Title h3{
+  font-size: 20pt;
+}
+.content2Left{
+  position: absolute;
+  left: 0;
+  top:40px;
+  border: 0;
+  background: rgba(0,0,0,0);
+}
+.content2Right{
+  position:absolute;
+  right: 0;
+  top:40px;
+  border: 0;
+  background: rgba(0,0,0,0);
+}
+.content2List{
+  width: 100%;
+}
+.content2ListUl::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.content2ListUl>li{
+  float: left;
+  margin-right: 6px;
+  width: 245px;
+}
+.content2ListLast{
+  margin: 0!important;
+}
