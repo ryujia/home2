@@ -212,11 +212,11 @@
   margin-top: 20px;
 }
 .star .starContent li{
-  width: 150px;
   float: left;
-  margin-right: 10px;
+  width: 45%;
 }
 .star .starContent .starContentText{
+  margin-left: 10%;
   color: #fff;
   font-size: 11pt;
   line-height:20px;
@@ -337,9 +337,107 @@
 }
 .content2ListUl>li{
   float: left;
-  margin-right: 6px;
+  margin-right: 6.6px;
   width: 245px;
+  height: 361px;
 }
-.content2ListLast{
+.contentListLast{
   margin: 0!important;
+}
+.content2ListUl p{
+  font-size: 10pt;
+  color: #bbb;
+  margin-top: 15px;
+}
+.content2ListUl h5{
+  font-size: 14pt;
+  color: #000;
+  margin-top: 10px;
+}
+.content2ListUl h6{
+  font-size: 14t;
+  color: #777;
+  margin-top: 10px;
+  line-height: 21px;
+}
+.content3List{
+  width: 1000px;
+  margin: 0 auto;
+}
+.content3List::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.content3List>li>div{
+  width: 245px;
+  height: 230px;
+  text-align: center;
+}
+.content3_01 p, .content3_02 p, .content3_04 p{
+  font-size: 20pt;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.content3_01 img, .content3_02 img, .content3_04 img{
+  margin-top: 45px;
+}
+.content3List>li{
+  float: left;
+  margin-right: 6.6px;
+}
+.content3_01{
+  background: #f66e8f;
+}
+.content3_02{
+  background: #18bdf6;
+}
+.content3_03{
+  background: #ff6c33  url("images/content3_03.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.content3_03Wrap{
+  padding: 25px;
+  text-align: center;
+}
+.content3_04{
+  background: #0a94c3;
+}
+.content3_03List{
+  margin-top: 40px;
+  width: 195px;
+}
+.content3_03 p{
+  display:inline;
+  font-size: 20pt;
+  color:#fff;
+  font-weight: bold;
+
+}
+.content3_03List::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.content3_03List li{
+  float: left;
+  width: 50%;
+  font-size: 10pt;
+  line-height: 25px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+.content4{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.content4_list{
+  width: 100%;
+}
+.content4_video{
+  width: 500px;
 }
