@@ -1,5 +1,6 @@
 $(function(){
 
+	id=setInterval(function(){next()},3000)
 	slideNum = 1;
 	$(".slideBtnUl > .leftBtn").click(function(){
 		prev();
@@ -29,6 +30,13 @@ $(function(){
 		}
 		$(".txtUl").stop().animate({"left":(slideNum-1)*-100+"%"});
 		$(".mainSlder > .bg").stop().animate({"left":(slideNum-1)*-100+"%"});
-
 	}
+
+	$(".mainSlder").mouseenter(function(){
+		clearInterval(id);
+	})
+
+	$(".mainSlder").mouseleave(function(){
+		id=setInterval(function(){next()},3000);
+	})
 })
