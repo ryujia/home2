@@ -1,0 +1,400 @@
+.wrap{
+	width: 100%;
+	height: 100%;
+}
+.topWrap{
+	width: 100%;
+}
+.top{
+	width: 1000px;
+	margin: 0 auto;
+	z-index: 11111;
+}
+.top:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.top>.menu{
+	float: right;
+	margin-top: 20px;
+}
+.top>.logo{
+	float: left;
+	margin-top: 50px;
+}
+.top>.gnb{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.tpp>.gnb>li{
+	position: relative;
+}
+.top>.gnb .sub{
+	position: relative;
+	z-index: 1111;
+	display: none;
+
+}
+.sub>li{
+	background: #784c33;
+	transition: background 0.5s;
+}
+.sub>li:hover{
+	background: #632c0e;
+}
+.sub>li>a{
+	line-height: 40px;
+	font-size: 10pt;
+	display: block;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+}
+.top>.menu::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.top>.menu>li{
+	float: left;
+}
+.top>.menu>li::after{
+	content: "|";
+	margin: 0 5px;
+}
+.top>.gnb>li{
+	float: left;
+	width: 130px;
+	height: 40px;
+	margin-left: 20px;
+	border-top: 2px solid #a58877;
+	line-height: 40px;
+	text-align: center;
+}
+.top>.gnb>li>a{
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.sliderWrap{
+	width: 100%;
+	margin-top: 20px;
+}
+.sliderWrap>.slider{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.slider>.imgs{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.slider .img1{
+	background: url("images/main_banner01.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.slider .img2{
+	background: url("images/main_banner02.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.slider .img3{
+	background: url("images/main_banner03.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.slider>.imgs>li{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.slider>.imgs>li>img{
+	width: 100%;
+}
+.slider>.bc{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -34px;
+}
+.slider>.bc>li{
+	float: left;
+	background: #fff;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px #333;
+	cursor: pointer;
+}
+.slider>.bc>li:hover{
+	border: 2px solid #999;
+}
+.sliderBcSelect{
+	background: #999!important;
+}
+.bcLast{
+	margin-right:0!important;
+}
+
+.mainContentWrap{
+	width: 100%;
+	margin-top: 50px;
+}
+.mainContent{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mainContent>.mainContent1{
+	width:100%;
+}
+.mainContent>.mainContent1::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.mainContent>.mainContent1>li{
+	width: 494px;
+	float: left;
+}
+.mainContent .port{
+	background: url("images/port.jpg") no-repeat;
+	width: 494px;
+	height: 335px;
+	margin-right: 12px;
+}
+.mainContent .port:hover{
+	background-position: 0 -335px;
+}
+.product{
+	width: 494px;
+	height: 335px;
+}
+.product>h3{
+	line-height: 22px;
+}
+.studio1{
+	background: url("images/studio01.jpg") no-repeat;
+}
+.studio2{
+	background: url("images/studio02.jpg") no-repeat;
+	margin-left: 12px;
+}
+.studio3{
+	background: url("images/studio03.jpg") no-repeat;
+}
+.studio4{
+	background: url("images/studio04.jpg") no-repeat;
+	margin-left: 12px;
+}
+.product>ul>li{
+	float: left;
+	width: 241px;
+	height: 150px;
+	margin-bottom: 12px;
+}
+.studio1:hover,.studio2:hover,.studio3:hover,.studio4:hover{
+	background-position: 0 -150px;
+}
+.mainContent2{
+	width: 100%;
+	margin-top: 50px;
+}
+.mainContent2 li{
+	cursor: pointer;
+}
+.mainContent2 a{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.mainContent2 h4>a{
+	font-weight: bolder;
+	font-size: 11pt;
+}
+.mainContent2::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.mainContent2 li{
+	float: left;
+	margin-right: 12px;
+	width: 241px;
+}
+.content2Last{
+	margin-right: 0!important;
+}
+.mainContent3{
+	margin-top: 50px;
+}
+.mainContent3>li{
+	float: left;
+}
+.mainContent3::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.notice{
+	width: 280px;
+	margin-right: 20px;
+}
+.notice>ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.notice .title{
+	float: left;
+}
+.notice .title a{
+	line-height: 20px;
+	font-size: 15px;
+}
+.notice .more{
+	float: right;
+}
+.notice .list{
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.notice .list>li>a{
+	line-height: 20px;
+}
+.gallery{
+	width: 400px;
+	margin-right: 20px;
+}
+.gallery>ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.gallery .title{
+	float: left;
+}
+.gallery .title a{
+	line-height: 20px;
+	font-size: 15px;
+}
+.gallery .more{
+	float: right;
+}
+.gallery .list{
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+.gallery .galleryImgs::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.gallery .galleryImgs>li{
+	float: left;
+	margin-right: 5px;
+}
+.gallery .galleryImgs .galleryImgsLast{
+	margin-right: 0!important;
+}
+.gallery .galleryImgs>li img{
+	width: 130px;
+}
+.call{
+	width: 280px;
+	height: 119px;
+	position: relative;
+}
+.call img{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.footerWrap{
+	width: 100%;
+}
+.footerTopWrap{
+	width: 100%;
+	background: #784c33;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+}
+.footerTop{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footerTop *{
+	color: #fff;
+}
+.footerTop .menu::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.footerTop .menu>li{
+	float: left;
+	width: 166.6px;
+	text-align: center;
+}
+.menu h6>a{
+	font-size: 11pt;
+	line-height: 30px;
+}
+.menu .list li a{
+	font-size: 10pt;
+	line-height: 25px;
+}
+.familyList{
+	width: 135px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.familyList::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.familyList li{
+	float: left;
+	margin-left: 5px;
+}
+.footerBottomWrap{
+	width: 100%;
+}
+.footerBottom{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footerBottom>ul{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footerBottom>ul>li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.footerBottom>ul>li *{
+	color: #000;
+}
+.footerBottom>ul>li::after{
+	content: "|";
+	margin-left: 20px;
+}
+.footerBottom>ul>li>a{
+	font-weight: bold;
+}
+.footerBottom>p{
+	text-align: center;
+	line-height: 15px;
+}

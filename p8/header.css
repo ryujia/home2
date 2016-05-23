@@ -24,7 +24,7 @@
 	height:100px;
 	margin:0 auto;
 	position:relative;/*z-index주기위해*/
-	z-index:1;
+	z-index:1111;
 	}
 .toplogo{
 	float:left;
@@ -39,7 +39,7 @@
 	height:40px;
 	border-top:2px solid #a58877;
 	margin-left:20px;
-	
+
 	position:relative;
 	}
 .gnb>li>a{
@@ -68,12 +68,9 @@
 	color:white;
 	font-weight:bold;
 	background:#885a41;
-	}	
-	
+	}
+
 .gnb>li>ul>li>a:hover{
 	text-decoration:none;
 	background:#78452d;
 	}
-	
-	
-	
