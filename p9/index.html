@@ -14,7 +14,61 @@
 </head>
 
 <body>
-<? include "header.html"  ?>
+	<div class="top">
+		<div class="top_container">
+	    	<ul class="member">
+	        	<li><a href="#">처음으로</a></li>
+	            <li><a href="#">로그인</a></li>
+	            <li><a href="#">회원가입</a></li>
+	            <li><a href="#">즐겨찾기</a></li>
+	        </ul><!--member end-->
+	    </div><!--top_container end-->
+	</div><!--top end-->
+
+	<div class="header">
+		<h1 class="top_logo"><a href="index.html"><img src="images/logo.gif" height="112"></a></h1>
+	    <ul class="gnb">
+	    	<li>
+	        	<a href="#">ABOUT</a>
+	            <ul class="sub1">
+	            	<li><a href="greet.html">인사말</a></li>
+	                <li><a href="map.html">오시는길</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">BUSINESS</a>
+	            <ul class="sub2">
+	            	<li><a href="business1.html">사업소개</a></li>
+	                <li><a href="business2.html">사업분야</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	       		<a href="#">GALLERY</a>
+	            <ul  class="sub3">
+	            	<li><a href="gallery.html">갤러리</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">ONLINE</a>
+	            <ul  class="sub4">
+	            	<li><a href="online.html">온라인문의</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">CUSTOMER</a>
+	            <ul  class="sub5">
+	            	<li><a href="notice.html">공지사항</a></li>
+	                <li><a href="freeboard.html">자유게시판</a></li>
+	                <li><a href="qna.html">Q&amp;A</a></li>
+	            </ul>
+	        </li>
+
+	    </ul><!--global navi end-->
+	</div><!--header End-->
 <!--index-->
 <div class="visual">
 	<ul class="bg_container">
@@ -26,7 +80,7 @@
     </ul>
     <button class="prev">&lt;</button>
     <button class="next">&gt;</button>
-    
+
     <ul class="breadcrumb">
     	<li class="btn1 active btn5" data-n="1"></li>
         <li class="btn2" data-n="2"></li>
@@ -58,7 +112,7 @@
     </ul>
     <a href="#" class="more">More+</a>
   </li><!--notice-->
-    
+
   <li class="gallery">
 	<h3>Gallery</h3>
     <ul class="thumb">
@@ -69,24 +123,88 @@
     </ul>
 	<a href="#" class="more">More+</a>
   </li><!--gallery-->
-    
+
   <li class="customer">
-		<img src="images/customer.gif" alt="">  
+		<img src="images/customer.gif" alt="">
   </li><!--customer-->
 </ul><!--latest_board-->
 <!--index end-->
-<? include "footer.html"  ?>
+<div class="sitemap">
+	<ul class="sitemap_container">
+    	<li>
+			<h4>회사소개</h4>
+            <ul>
+            	<li><a href="greet.html">인사말</a></li>
+                <li><a href="map.html">오시는길</a></li>
+            </ul>
+        </li>
+    	<li>
+        	<h4>사업분야</h4>
+            <ul>
+            	<li><a href="business1.html">사업소개</a></li>
+                <li><a href="business2.html">사업분야</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>갤러리</h4>
+            <ul>
+            	<li><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>온라인문의</h4>
+            <ul>
+            	<li><a href="online.html">온라인문의</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>고객센터</h4>
+            <ul>
+            	<li><a href="notice.html">공지사항</a></li>
+                <li><a href="freeboard.html">자유게시판</a></li>
+                <li><a href="qna.html">QNA</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>회원</h4>
+            <ul>
+            	<li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">정보수정</a></li>
+            </ul>
+        </li>
+    </ul><!--sitemap_container-->
+</div><!--sitemap-->
+
+<div class="footer">
+	<ul class="info">
+    	<li>주소 : 대한민국 인천시 부평구 000-00</li>
+        <li>상호 : 디자인선샤인</li>
+        <li>사업자등록번호 : 000 000 0000<br></li>
+        <li>Tel : 000-000-0000</li>
+        <li>E-mail : mail@mail.net</li>
+	</ul>
+    <p class="copy">
+    	Copyright&copy;All Rights Reserved.
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

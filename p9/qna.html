@@ -13,16 +13,227 @@
 </head>
 
 <body>
-<? include "header.html" ?>
-<? include "sub_slider.html" ?>
+	<div class="top">
+		<div class="top_container">
+	    	<ul class="member">
+	        	<li><a href="#">처음으로</a></li>
+	            <li><a href="#">로그인</a></li>
+	            <li><a href="#">회원가입</a></li>
+	            <li><a href="#">즐겨찾기</a></li>
+	        </ul><!--member end-->
+	    </div><!--top_container end-->
+	</div><!--top end-->
+
+	<div class="header">
+		<h1 class="top_logo"><a href="index.html"><img src="images/logo.gif" height="112"></a></h1>
+	    <ul class="gnb">
+	    	<li>
+	        	<a href="#">ABOUT</a>
+	            <ul class="sub1">
+	            	<li><a href="greet.html">인사말</a></li>
+	                <li><a href="map.html">오시는길</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">BUSINESS</a>
+	            <ul class="sub2">
+	            	<li><a href="business1.html">사업소개</a></li>
+	                <li><a href="business2.html">사업분야</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	       		<a href="#">GALLERY</a>
+	            <ul  class="sub3">
+	            	<li><a href="gallery.html">갤러리</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">ONLINE</a>
+	            <ul  class="sub4">
+	            	<li><a href="online.html">온라인문의</a></li>
+	            </ul>
+	        </li>
+
+	        <li>
+	        	<a href="#">CUSTOMER</a>
+	            <ul  class="sub5">
+	            	<li><a href="notice.html">공지사항</a></li>
+	                <li><a href="freeboard.html">자유게시판</a></li>
+	                <li><a href="qna.html">Q&amp;A</a></li>
+	            </ul>
+	        </li>
+
+	    </ul><!--global navi end-->
+	</div><!--header End-->
+	<div class="sub_slider">
+		<ul class="img_container">
+	    	<li class="img1"></li>
+	        <li class="img2"></li>
+	        <li class="img3"></li>
+	        <li class="img4"></li>
+	    </ul>
+	    <button class="prev">&lt;</button>
+	    <button class="next">&gt;</button>
+
+	    <ul class="breadcrumb">
+	    	<li class="btn1 active btn5" data-n="1"></li>
+	        <li class="btn2" data-n="2"></li>
+	        <li class="btn3" data-n="3"></li>
+	        <li class="btn4" data-n="4"></li>
+	    </ul>
+	</div>
 <div class="center">
-<? include "sidebar.html" ?>
+	<div class="sidebar">
+	    <div class="snb snb1">
+	    	<h2>About</h2>
+	        <ul>
+	        	<li><a href="greet.html" class="subbtn1">인사말</a></li>
+	            <li><a href="map.html" class="subbtn2">오시는길</a></li>
+	        </ul>
+	    </div>
+	    <div class="snb snb2">
+	    	<h2>Business</h2>
+	        <ul>
+	        	<li><a href="business1.html" class="subbtn3">사업소개</a></li>
+	            <li><a href="business2.html" class="subbtn4">사업분야</a></li>
+	        </ul>
+	    </div>
+	    <div class="snb snb3">
+	    	<h2>Gallery</h2>
+	        <ul>
+	        	<li><a href="gallery.html" class="subbtn5">갤러리</a></li>
+	        </ul>
+	    </div>
+	    <div class="snb snb4">
+	    	<h2>Online</h2>
+	        <ul>
+	        	<li><a href="online.html" class="subbtn6">온라인문의</a></li>
+	        </ul>
+	    </div>
+	    <div class="snb snb5">
+	    	<h2>Costomer</h2>
+	        <ul>
+	        	<li><a href="notice.html" class="subbtn7">공지사항</a></li>
+	            <li><a href="freeboard.html" class="subbtn8">자유게시판</a></li>
+	            <li><a href="qna.html" class="subbtn9">Q&amp;A</a></li>
+	        </ul>
+	    </div>
+	</div>
 <div class="content">
-	<? include "path.html" ?>
+	<ul class="path path1">
+	    	<li>홈</li>
+	        <li>회사소개</li>
+	        <li class="last_child">인사말</li>
+	</ul>
+	<ul class="path path2">
+	    	<li>홈</li>
+	        <li>회사소개</li>
+	        <li class="last_child">오시는길</li>
+	</ul>
+	<ul class="path path3">
+	    	<li>홈</li>
+	        <li>사업</li>
+	        <li class="last_child">사업소개</li>
+	</ul>
+	<ul class="path path4">
+	    	<li>홈</li>
+	        <li>사업</li>
+	        <li class="last_child">사업분야</li>
+	</ul>
+	<ul class="path path5">
+	    	<li>홈</li>
+	        <li>갤러리</li>
+	        <li class="last_child">갤러리</li>
+	</ul>
+	<ul class="path path6">
+	    	<li>홈</li>
+	        <li>온라인</li>
+	        <li class="last_child">온라인문의</li>
+	</ul>
+	<ul class="path path7">
+	    	<li>홈</li>
+	        <li>고객</li>
+	        <li class="last_child">공지사항</li>
+	</ul>
+	<ul class="path path8">
+	    	<li>홈</li>
+	        <li>고객</li>
+	        <li class="last_child">자유게시판</li>
+	</ul>
+	<ul class="path path9">
+	    	<li>홈</li>
+	        <li>고객</li>
+	        <li class="last_child">QNA</li>
+	</ul>
 	<h2>qna</h2>
     <p>qna 본문.....</p>
 </div>
 </div>
-<? include "footer.html" ?>
+<div class="sitemap">
+	<ul class="sitemap_container">
+    	<li>
+			<h4>회사소개</h4>
+            <ul>
+            	<li><a href="greet.html">인사말</a></li>
+                <li><a href="map.html">오시는길</a></li>
+            </ul>
+        </li>
+    	<li>
+        	<h4>사업분야</h4>
+            <ul>
+            	<li><a href="business1.html">사업소개</a></li>
+                <li><a href="business2.html">사업분야</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>갤러리</h4>
+            <ul>
+            	<li><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>온라인문의</h4>
+            <ul>
+            	<li><a href="online.html">온라인문의</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>고객센터</h4>
+            <ul>
+            	<li><a href="notice.html">공지사항</a></li>
+                <li><a href="freeboard.html">자유게시판</a></li>
+                <li><a href="qna.html">QNA</a></li>
+            </ul>
+        </li>
+
+    	<li>
+        	<h4>회원</h4>
+            <ul>
+            	<li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">정보수정</a></li>
+            </ul>
+        </li>
+    </ul><!--sitemap_container-->
+</div><!--sitemap-->
+
+<div class="footer">
+	<ul class="info">
+    	<li>주소 : 대한민국 인천시 부평구 000-00</li>
+        <li>상호 : 디자인선샤인</li>
+        <li>사업자등록번호 : 000 000 0000<br></li>
+        <li>Tel : 000-000-0000</li>
+        <li>E-mail : mail@mail.net</li>
+	</ul>
+    <p class="copy">
+    	Copyright&copy;All Rights Reserved.
+    </p>
+</div>
 </body>
 </html>
